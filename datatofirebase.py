@@ -18,6 +18,7 @@ db = firebase.database()
 
 # update data
 while True:
+  print ('test')
   random_x = random.randrange(1,100)
   # db.child("member").child("ipo_margin").set(random_x)
   # db.child("member").child("issue_reports").set(random_x)
@@ -28,4 +29,4 @@ while True:
   # db.child("member").child("revenue").set(random_x)
   # db.child("member").child("transactions").set(random_x)
   # db.child("member").child("weekly_orders").set(random_x)
-  time.sleep(2)
+  time.sleep(1)
